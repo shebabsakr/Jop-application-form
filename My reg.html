@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<head>
+  <title>Shehab's Survey</title>
+  <meta charset='UTF-8'>
+  <link rel="stylesheet" href="My reg styling.css" />
+</head>
+<body>
+    <!-- Title  -->
+    <h1 id='title' >Jop Application Form</h1>
+    <p id='description'><strong>Please Make Sure To Fill In Everything!</strong></p>
+    <!-- End Title  -->
+    <!-- Name, Email, Age Form  -->
+    <form id='survey-form' class="survey-form">
+      <label id="name-label">First Name: <input id='name' type='text' placeholder='Please Enter Your First Name' class='allign-form' required></label>
+      <label id="name-label">Last Name: <input id='name' type='text' placeholder='Please Enter Your Last Name' class='allign-form' required></label>
+      <label id="email-label">Email: <input id='email' type='email' placeholder='Please Enter Your Email' class='allign-form' required></label>
+      <label id="number-label">Age (Optional): <input id='number' type='number' min='13' max='120' placeholder='Please Enter Your Age' class='allign-form'></label>
+    <!-- End Name, Email, Age Form  -->
+     <div class="end-sector"></div>
+    <!-- Enducation Dropdown  -->
+      <label for="dropdown">Furtherest Level Of Education: </label>
+        <select id='dropdown' class='allign-form'> 
+            <option value="" disabled selected> Please Select one</option>
+            <option value='High School'>High School</option>
+            <option value='Collage'>Collage</option>
+            <option value='University'>University</option>
+            <option value='Doctors'>Doctor's</option>
+            <option value='Other'>Other</option>
+        </select>
+    <!-- End Enducation Dropdown  -->
+     <div class="end-sector"></div>
+    <!-- Have You Worked Radio  -->
+      <label>Have You Worked Here Before</label>
+      <label><input type='radio' id='x' name='x-y' value='x'>Yes, I Have Worked Here Before</label>
+      <label><input type='radio' id='y' name='x-y' value='y'>No, I Haven't Worker Here Before</label>
+    <!-- End Have You Worked Radio  -->
+     <div class="end-sector"></div>
+    <!-- Aim Postion  -->
+     <label>What Postion Are You Aiming For: (Choose All That Apply)</label>
+     <label id='checkbox'><input type='checkbox' value='Manager'>Manager</label>
+     <label id='checkbox'><input type='checkbox' value='Senior Manager'>Senior Manager</label>
+     <label id='checkbox'><input type='checkbox' value='Junior Manager'>Junior Manager</label>
+     <label id='checkbox'><input type='checkbox' value='Project Manager'>Project Manager</label>
+     <label id='checkbox'><input type='checkbox' value='Junior Software Engineer'>Junior Software Engineer</label>
+     <label id='checkbox'><input type='checkbox' value='Senior Software Engineer'>Senior Software Engineer</label>
+     <label id='checkbox'><input type='checkbox' value='Software Engineer'>Software Engineer</label>
+      <!-- End Aim Postion  -->
+       <div class="end-sector"></div>
+      <label id="bio">Bio: (Must Be 100-300 Words) </label>
+      <textarea id='bio' class='bio' placeholder="Please Tell Us About Yourself And Why You Would Be Good For This Postion" minlength="100" minlength="300"></textarea>
+      <button type='submit' id='submit' class='submit-button'>Submit</button>
+    </form>
+</body>

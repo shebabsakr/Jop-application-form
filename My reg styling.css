@@ -1,0 +1,80 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Tahoma;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+.survey-form {
+    width: 60vw;
+    min-width: 500px;
+    max-width: 500px;
+    height: 1250px;
+    background-color: rgba(13, 14, 33, 0.9);
+    color: white;
+    margin: auto;
+    border-radius: 1%;
+    padding: 30px;
+}
+
+h1, p, label{
+    text-align: center;
+}
+.allign-form {
+    width: 85%;
+    display: block;
+    font-size: 17px;
+    border-radius: 3%;
+}
+
+h1 {
+    font-size: 45px;
+    color: #0d0e21;
+}
+label, select{
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    border-radius: 5%;
+}
+input {
+    height: 25px;
+}
+
+input[type="radio"],  input[type="checkbox"]{
+        margin-right: 18px;    
+        vertical-align: middle;
+    }
+
+.end-sector {
+    margin-top: 40px;
+}
+.bio {
+    display: block;
+    margin-left: 20px;
+    width: 85%;
+    height: 70px;
+    margin-top: 15px;
+}
+
+.submit-button {
+    display: block;
+    width: 85%;
+    background-color: rgb(29, 192, 29);
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    margin-top: 50px;
+    margin: 50px auto auto auto;
+    border: none;
+    border-radius: 5%;
+}
+button:hover {
+    background-color: rgb(0, 92, 0);
+}
+input {
+    border: none;
+}
+
