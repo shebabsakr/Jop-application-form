@@ -1,17 +1,59 @@
-# Job Application Form
+# 📝 Job Application Form
 
-This project is a basic job application form built with HTML and CSS.  
-The form collects information such as personal details, education, work history, the position being applied for, and a short bio.  
+A **responsive** and **user-friendly** job application form built with **HTML** and **CSS**.  
+This form collects personal information, education, work experience, desired positions, and a short bio from applicants.
+
+---
+
+## **Features**
+
+- **Personal Information**  
+  Collects:
+  - `First Name`
+  - `Last Name`
+  - `Email`
+  - `Age` (optional)
+
+- **Education Level**  
+  Dropdown selection for the highest level of education:
+  - `High School`
+  - `College`
+  - `University`
+  - `Doctor's`
+  - `Other`
+
+- **Work Experience**  
+  Radio buttons for:  
+  - `Yes, I have worked here before`  
+  - `No, I haven't worked here before`
+
+- **Desired Position**  
+  Multiple selectable checkboxes, e.g.:  
+  - `Manager`  
+  - `Senior Manager`  
+  - `Junior Manager`  
+  - `Project Manager`  
+  - `Junior Software Engineer`  
+  - `Senior Software Engineer`  
+  - `Software Engineer`
+
+- **Bio Section**  
+  Textarea for applicants to write **100–300 words** about themselves and why they are a good fit.
+
+- **Responsive Design**  
+  Form is centered on the page, scales on different screen sizes, and has a styled submit button with hover effects.
 
 ---
 
-## Features
+## **Preview**
 
-- Fields for first name, last name, email, and age  
-- Dropdown menu for highest level of education  
-- Radio buttons for previous work experience  
-- Checkboxes to select the position(s) being applied for  
-- Text area for a short bio (100–300 words)  
-- Submit button with hover effect  
+![Job Application Form Preview](https://via.placeholder.com/500x600.png?text=Job+Application+Form+Preview)
 
 ---
+
+## **Usage**
+
+1. **Clone the repository**
+
+```bash
+git clone <repository-url>
